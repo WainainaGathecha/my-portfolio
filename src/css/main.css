@@ -13,6 +13,10 @@
 .experience-list:hover .experience-card:not(:hover) {
     opacity: 0.5;
 }
+.experience-card {
+    transition: opacity 300ms ease, background-color 300ms ease;
+}
+
 body::before {
     content:  '';
     position: fixed; 
