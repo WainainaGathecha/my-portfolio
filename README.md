@@ -42,6 +42,7 @@ No dev  server is required. There is no bundler
 
 The project is intentionally flat. All markup lives in index.html. javaScript is unmodularised - the file is small enough that splitting it into modules would add complexity without benefit.
 
+```project structure
 my-portfolio/
 |___node_modules/
 |___src/
@@ -60,6 +61,7 @@ my-portfolio/
 |___.gitignore
 |___README.md
 |___resume.pdf
+```
 
 ## Features
 
