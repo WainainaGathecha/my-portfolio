@@ -72,6 +72,123 @@
 
         <!-- Right Panel  -->
         <div class="lg:w-[55%] lg:py-24">
+            <!-- About section -->
+            <section id="about" class="mb-24">
+                <h2 class="font-semibold text-xs text-text-primary tracking-widest uppercase mb-8">About</h2>
+                <div class="flex flex-col gap-4">
+                    <p class="text-text-secondary leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi iure, ipsam autem ratione voluptatum omnis earum rem impedit placeat enim adipisci nesciunt fugiat facilis laborum cum perferendis ex sint.
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus nam nisi, amet quod reiciendis libero dolorem, optio illum, hic esse eaque voluptatem laudantium possimus dolores et recusandae porro maxime!
+                    </p>
+                    <p class="text-text-secondary leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus nam nisi, amet quod reiciendis libero dolorem, optio illum, hic esse eaque voluptatem laudantium possimus dolores et recusandae porro maxime!
+                    </p>
+                </div>
+            </section>
+
+            <!-- Experience section -->
+            <section id="experience" class="mb-24">
+                <h2 class="font-semibold text-xs text-text-primary tracking-widest uppercase mb-8">Experience</h2>
+
+                <!-- Experience cards -->
+                 <div class="experience-list flex flex-col gap-3">
+                    <!-- card -->
+                    <div class="experience-card group relative flex gap-6 rounded-lg transition-all duration-300 hover:bg-surface hover:shadow-[insert_0_1px_0_0_rgba(148, 163, 184, 0.1)] p-6">
+                        <!-- Date -->
+                        <div class="min-w-25 pt-1">
+                            <span class="text-xs text-text-secondary uppercase tracking-widest">2024 - present</span>
+                        </div>
+                        <!-- content -->
+                        <div class="flex flex-col gap-3">
+                            <h3 class="text-text-primary font-semibold leading-tight group-hover:textaccent transition-colors duration-300">
+                                Senior Frontend developer, Accessibility
+                                <span class="text-accent">- Klaviyo</span> 
+                            </h3>
+                            <p class="text-text-secondary text-sm leading-relaxed">
+                                Lorem ipsum dolor sits, amet consectetur adipisicing elit. Architecto nulla adipisci, consequatur nostrum aliquam animi quisquam laboriosam assumenda, maiores tenetur esse harum soluta vel aperiam cupiditate error, officia eum tempora.
+                            </p>
+                            <!-- tags -->
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1  text-accent font-medium text-xs bg-accent/10 rounded-full">JavaScript</span>
+                                <span class="px-3 py-1  text-accent font-medium text-xs bg-accent/10 rounded-full">Typescript</span>
+                                <span class="px-3 py-1  text-accent font-medium text-xs bg-accent/10 rounded-full">React</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- next card -->
+                </div>
+
+                <!-- resume link -->
+                <div class="mt-8 pl-6">
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2 text-text-primary font-semibold text-sm hover:text-accent transition-colors duration-300">
+                        View Full Résumé
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
+                            <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
+                        </svg>
+                    </a>       
+                </div>
+            </section>
+
+            <!-- Projects section -->
+            <section id="projects" class="mb-24">
+                <h2 class="font-semibold text-xs text-text-primary tracking-widest uppercase mb-8">Projects</h2>
+
+                <!-- Projects -->
+                <div class="flex flex-col gap-4">
+                    <!-- Project card -->
+                    <div class="group relative flex flex-col sm:flex-row gap-6 rounded-lg p-6 transition-all duration-300 hover:bg-surface hover:shadow-[insert_0_1px_0_0_rgba(148, 163, 184, 0.1)]">
+                        <!-- Thumbnail -->
+                        <div class="sm:min-w-30">
+                             <img
+                              src="#" 
+                              alt="placeholder image"
+                              width="120"
+                              heigh="68"
+                              loading="lazy"
+                              class="rounded aspect-videoobject-cover w-full sm:w-30"/>
+                        </div>
+                        <!-- content -->
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-text-primary font-semibold group-hover:text-accent transition-colors duration-300 leading-tight">
+                                <a href="#" class="after:absolute after:inset-0">
+                                    Build a spotify connected app
+                                </a>
+                            </h3>
+                            <p class="text-text-secondary text-sm leading-relaxed">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, facilis. Aperiam sunt perferendis dolores id adipisci saepe praesentium similique, voluptate in, quis nostrum corrupti quasi, cum odit minima veritatis neque!
+                            </p>
+                            <!-- tags  -->
+                            <div class="flex flex-wrap gap-2 mt-1">
+                                <span class="px-3 py-1 text-xs font-medium text-accent bg-accent/10 rounded-full">React</span>
+                                <span class="px-3 py-1 text-xs font-medium text-accent bg-accent/10 rounded-full">React</span>
+                                <span class="px-3 py-1 text-xs font-medium text-accent bg-accent/10 rounded-full">React</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- next project -->
+                </div>
+                <!-- archive link  -->
+                 <div class="mt-8 pl-6">
+                     <a href="https://github.com/wainainagathecha" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2 text-text-primary font-semibold text-sm hover:text-accent transition-colors duration-300">
+                        View Full Project Archive
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
+                            <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
+                        </svg>
+                     </a>
+                 </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="text-text-secondary text-sm leading-relaxed border-t border-border pt-8">
+                Designed and built by Wainaina Gathecha. Built with 
+                <a href="https://tailwindcss.com" class="text-text-primary hover:text-accent transition-colors duration-300">Tailwind CSS</a>
+                and deployed on
+                <a href="https://vercel.com" class="text-text-primary hover:text-accent transition-colors duration-300">Vercel</a>.
+            </footer>
 
         </div>
 

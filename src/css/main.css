@@ -9,3 +9,7 @@
     --color-accent: #64ffda;
     --font-inter: "Inter", sans-serif;
 }
+
+.experience-list:hover .experience-card:not(:hover) {
+    opacity: 0.5;
+}
