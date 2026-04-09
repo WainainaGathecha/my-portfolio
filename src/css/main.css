@@ -10,13 +10,7 @@
     --font-inter: "Inter", sans-serif;
 }
 
-.experience-list:hover .experience-card:not(:hover) {
-    opacity: 0.5;
-}
-.experience-card {
-    transition: opacity 300ms ease, background-color 300ms ease;
-}
-
+/* cursor glow */
 body::before {
     content:  '';
     position: fixed; 
@@ -27,10 +21,32 @@ body::before {
         600px circle at var(--mouse-x, 50%) var(--mouse-y,50%), rgba(100, 255, 218, 0.05), transparent 80%
     );
 }
+
+/* nav active state */
 .nav-link.active span:first-child {
     width:4rem;
     background-color: var(--color-text-primary);
 }
 .nav-link.active span:last-child {
     color: var(--color-text-primary);
+}
+
+/* experience card hover */
+.experience-list:hover .experience-card:not(:hover) {
+    opacity: 0.5;
+}
+.experience-card {
+    transition: opacity 300ms ease, background-color 300ms ease;
+}
+
+/* sticky section headings on mobile */
+@media (max-width: 1023px) {
+    section > h2 {
+        position: sticky;
+        top: 0;
+        background-color: var(--color-bg);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        z-index: 10;
+    }
 }
