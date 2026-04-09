@@ -69,3 +69,17 @@ body::before {
 .skip-link:focus {
     top: 0;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    /* Disable the cursor glow */
+    body::before {
+        display: none;
+    }
+
+    /* Remove all transitions and animations from everything */
+    *, *::before, *::after {
+        animation-duration: 0,01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
