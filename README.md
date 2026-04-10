@@ -111,3 +111,7 @@ Design reference: Brittany Chiang. The layout architecture and interaction patte
 ## License
 
 MIT
+
+## Bugs
+
+- The open gragh tags are not set up correctly
