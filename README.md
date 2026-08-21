@@ -2,24 +2,35 @@
 
 A single-page developer portfolio built with HTML, Tailwind CSS, and vanilla JavaScript. No frameworks, no build dependencies beyond a Tailwind CLI setup. Designed for performance, accessibility, and maintainability.
 
-Live site: my-portfolio-link
+Live site: my-portfolio-p2xe.vercel.app/
 
 ## Tech Stack
 
-Markup - HTML5
-Styling - Tailwind CSS V4
-Interactivity - Vanilla JavaScript
-Icons - Lucide, font awesome
-Typography - Inter - Google Fonts
-deployment - vercel
+### Languages
+
+- JavaScript
+
+### Libraries
+
+- Lucide
+
+### Frameworks
+
+- TailwindCSS v4
+
+### Typography
+
+- Inter - Google Fonts
+
+### deployment
+
+- vercel
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js >=18.x (required for the tailwind cli)
-- Git
-- A code editor
+- Node.js
 
 ### Installation
 
@@ -31,16 +42,14 @@ cd my-portfolio
 npm install
 ```
 
-Start the Tailwind watcher during development
+Run:
 
 `npx tailwindcss -i ./main.css -o ./dist/output.css --watch`
 
 Open index.html directly in your browser, or use the Live Server extension in VS Code for hot reload
-No dev  server is required. There is no bundler
+No server required. There is no bundler
 
 ## Project structure
-
-The project is intentionally flat. All markup lives in index.html. javaScript is unmodularised - the file is small enough that splitting it into modules would add complexity without benefit.
 
 ```project structure
 my-portfolio/
@@ -81,7 +90,7 @@ The interactivity on this page - active nav, cursor glow, card hover - does not 
 
 Every color is defined as a token on :root. This makes future palette changes a one-line edit and prevents color valued from being scattered across utility classes.
 
-### Content last 
+### Content last
 
 The layout and interactions were built and verified with placeholder content. Real copy and images were added only after the structure was stable.
 
