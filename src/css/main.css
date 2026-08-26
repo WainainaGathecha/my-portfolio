@@ -83,3 +83,10 @@ body::before {
         transition-duration: 0.01ms !important;
     }
 }
+
+.headings {
+    @apply text-text-primary font-semibold group-hover:text-accent transition-colors duration-300 leading-tight; 
+}
+.paragraph {
+    @apply text-text-secondary text-sm leading-relaxed;
+}
